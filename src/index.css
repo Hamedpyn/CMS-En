@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@layer base {
+  body {
+    font-family: poppins,sans-serif;
+  }
+}
+
+@layer components {
+  .products-menu > * {
+    @apply uppercase font-bold text-[14px]
+  }
+  .forms {
+    @apply pl-5 w-[200px] rounded-md
+  }
+  .selectBox {
+    @apply text-lg pt-3 text-gray-600 pl-3 font-bold
+  }
+}
