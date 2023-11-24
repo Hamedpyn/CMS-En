@@ -6,6 +6,7 @@ import Analytics from "./Pages/Analytics"
 import TransActions from "./Pages/TransActions"
 
 let routes = [
+    {path:"*",element:<Home/>},
     {path:"/",element:<Home/>},
     {path:"/Users",element:<Users/>},
     {path:"/NewUsers",element:<Home/>},
