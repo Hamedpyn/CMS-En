@@ -30,7 +30,7 @@ export default function Product() {
                 {item.id}
               </Table.Cell>
               <Table.Cell className='flex items-center justify-center gap-x-2'>
-                <img className='w-10 rounded-full' src={item.img} alt="" />
+                <img className='w-10 h-10 rounded-full' src={item.img} alt="laptop" />
                 {item.title}
               </Table.Cell>
               <Table.Cell>${item.price}</Table.Cell>

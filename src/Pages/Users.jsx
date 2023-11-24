@@ -31,7 +31,7 @@ export default function Users() {
                 {item.id}
               </Table.Cell>
               <Table.Cell className='text-start flex items-center gap-x-2'>
-                <img className='w-10 rounded-full' src={item.avatar} alt="" />
+                <img className='w-10 h-10 rounded-full' src={item.avatar} alt="" />
                 {item.title}
               </Table.Cell>
               <Table.Cell>{item.status}</Table.Cell>
